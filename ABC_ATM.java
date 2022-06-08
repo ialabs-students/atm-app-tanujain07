@@ -6,7 +6,7 @@ public class ABC_ATM {
     public static int twoThousands, fiveHundreds, twoHundreds, hundreds, fifties, withdraw_amount = 0;
     public static int totalAmount;
     static Scanner sc = new Scanner(System.in);
-    static DecimalFormat moneyFormat = new DecimalFormat(" '$' ###,##0.00");
+    static DecimalFormat moneyFormat = new DecimalFormat(" 'Rs' ###,##0.00");
 
     public static void depositeAmount() {
         System.out.println("please add the no. of currencies!");
